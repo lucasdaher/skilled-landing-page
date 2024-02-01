@@ -1,0 +1,60 @@
+@use '../../../sass/mixins'as*;
+@use '../../../sass/colors'as*;
+
+.card {
+  max-width: 350px;
+  width: 100%;
+  max-height: 322px;
+  height: auto;
+
+  border-radius: 15px;
+  background: $white;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+  padding: 64px 32px 40px;
+
+  position: relative;
+
+  .card-icon {
+    position: absolute;
+    top: -24px;
+  }
+}
+
+.card-content {
+  .title {
+    color: $dark-blue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-bottom: 24px;
+  }
+
+  .desc {
+    height: 112px;
+    color: $gray;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin-bottom: 24px;
+  }
+
+  .started {
+    color: $pink;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+
+  .started:hover {
+    opacity: .5;
+  }
+}

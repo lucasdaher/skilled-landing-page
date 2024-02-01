@@ -1,0 +1,9 @@
+@use './sass/fontFamily'as*;
+@use './sass/colors'as*;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $plus-jakarta-sans;
+}

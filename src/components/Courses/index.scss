@@ -1,0 +1,47 @@
+@use '../../sass/mixins'as*;
+@use '../../sass/colors'as*;
+
+.courses {
+  background: $background-gradient;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 76px 22px;
+
+  padding: 24px 165px 140px;
+}
+
+.main-card {
+  max-width: 350px;
+  width: 100%;
+  max-height: 322px;
+  height: auto;
+
+  padding: 64px 32px 138px;
+  border-radius: 15px;
+  background: $button-gradient;
+
+  .main-card-title {
+    max-width: 286px;
+    width: 100%;
+
+    color: $white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+}
+
+@media screen and (max-width: 1230px) {
+  .courses {
+    padding: 24px 39px 108px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .courses {
+    padding: 6px 16px 110px;
+  }
+}

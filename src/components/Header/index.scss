@@ -1,0 +1,71 @@
+@use '../../sass/mixins'as*;
+@use '../../sass/colors'as*;
+
+header {
+  width: 100%;
+  height: auto;
+  background: transparent;
+
+  padding: 38px 165px;
+  @include flex($flex-dir: row, $justify: space-between, $align: center);
+
+  position: static;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
+}
+
+.logo {
+  img {
+    width: 111.168px;
+    height: 27.684px;
+  }
+}
+
+.started-btn {
+  button {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: $dark-blue;
+    color: $white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    position: relative;
+    z-index: 3;
+  }
+
+  button:hover {
+    border-radius: 28px;
+    background: $dark-blue-hover;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  header {
+    padding: 31px 39px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    padding: 16px;
+  }
+
+  .logo {
+    img {
+      max-width: 89px;
+      max-height: 35px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

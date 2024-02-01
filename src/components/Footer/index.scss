@@ -1,0 +1,51 @@
+@use '../../sass/mixins'as*;
+@use '../../sass/colors'as*;
+
+footer {
+  width: 100%;
+  background: $dark-blue;
+  padding: 46px 165px;
+  color: $white;
+
+  @include flex($justify: space-between);
+
+  button {
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: $footer-button-gradient;
+
+    border: 0;
+    color: $white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  button:hover {
+    background: $footer-button-gradient-hover;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  footer {
+    padding: 46px 39px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    padding: 46px 16px;
+
+    img {
+      max-width: 89px;
+      max-height: 35px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
