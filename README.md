@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Netlify](https://soon.com)
-- Live Site URL: [Repository](https://soon.com)
+- Solution URL: [GitHub](https://github.com/lucasdaher/skilled-landing-page)
+- Live Site URL: [Live Site](https://soon.com)
 
 ## My process
 I started the project by preparing React with Vite. I created all the necessary folders and files right away and started the development of the Landing Page by components and styling using SASS. After completing all the functional part and styling I went to responsiveness according to the suggested sizes.
