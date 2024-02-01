@@ -11,6 +11,10 @@
 }
 
 .presentation-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   .title {
     max-width: 457px;
     width: 100%;
@@ -39,7 +43,7 @@
     font-weight: 400;
     line-height: 28px;
 
-    margin: 29px 0 40px 0;
+    margin-bottom: 40px;
   }
 
   button {
