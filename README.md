@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/lucasdaher/skilled-landing-page)
-- Live Site URL: [Live Site](https://soon.com)
+- Live Site URL: [Live Site](https://lucasdaher-skilled-lp.vercel.app/)
 
 ## My process
 I started the project by preparing React with Vite. I created all the necessary folders and files right away and started the development of the Landing Page by components and styling using SASS. After completing all the functional part and styling I went to responsiveness according to the suggested sizes.
